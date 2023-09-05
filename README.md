@@ -116,3 +116,18 @@ print(max)
 
 -----
 
+numbers = [2, 2, 6, 3, 1, 4, 6, 7, 8, 8, 8, 9]
+uniques = []
+
+for number in numbers:
+    if number not in uniques:
+        uniques.append(number)
+uniques.sort()
+print(uniques)
+
+-> creates a list that took out duplicates, then sorted list
+
+----------------
+
+
+
